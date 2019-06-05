@@ -1,3 +1,19 @@
+/*H***********************************************************************
+* FILENAME :        create_tables.sql
+*
+* DESCRIPTION :
+*       Creates tables in the airline database
+*
+* NOTES :
+*       The tables are filled with data
+*       in insert_data.sql
+*
+*       Copyright 2018, Jacob Wilkins.  All rights reserved.
+* 
+* AUTHOR :    Jacob Wilkins        START DATE :    31 Jan 18
+*
+*H*/
+
 CREATE TABLE `Airport` (
     `Code` CHAR(3) NOT NULL DEFAULT '',
     `City` VARCHAR(50) DEFAULT NULL,
