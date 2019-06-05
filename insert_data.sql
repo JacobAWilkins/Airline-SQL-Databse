@@ -1,3 +1,18 @@
+/*H***********************************************************************
+* FILENAME :        create_tables.sql
+*
+* DESCRIPTION :
+*       Random data is inserted into the airline database
+*
+* NOTES :
+*       The tables were created in create_tables.sql
+*
+*       Copyright 2018, Jacob Wilkins.  All rights reserved.
+* 
+* AUTHOR :    Jacob Wilkins        START DATE :    31 Jan 18
+*
+*H*/
+
 INSERT INTO `Airport` (`Code`, `City`, `State`) VALUES ('DFW', 'Dallas', 'TX');
 INSERT INTO `Airport` (`Code`, `City`, `State`) VALUES ('LOG', 'Boston', 'MA');
 INSERT INTO `Airport` (`Code`, `City`, `State`) VALUES ('ORD', 'Chicago', 'IL');
