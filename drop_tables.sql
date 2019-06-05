@@ -1,3 +1,16 @@
+/*H***************************************************************
+* FILENAME :        drop_tables.sql
+*
+* DESCRIPTION :
+*       Each table in the airport database are dropped
+*
+* NOTES :
+*       Copyright 2018, Jacob Wilkins.  All rights reserved.
+* 
+* AUTHOR :    Jacob Wilkins        START DATE :    31 Jan 18
+*
+*H*/
+
 DROP TABLE IF EXISTS `Airport`;
 DROP TABLE IF EXISTS `Flight`;
 DROP TABLE IF EXISTS `FlightInstance`;
