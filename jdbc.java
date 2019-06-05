@@ -1,3 +1,19 @@
+/*H***********************************************************************
+* FILENAME :        jdbc.java
+*
+* DESCRIPTION :
+*       Uses jdbc to produce different views of the airline database
+*
+* NOTES :
+*       For the user, password, db, and jdbc variables,
+*       you must enter your own personal information.
+*
+*       Copyright 2018, Jacob Wilkins.  All rights reserved.
+* 
+* AUTHOR :    Jacob Wilkins        START DATE :    22 Apr 18
+*
+*H*/
+
 import java.sql.*;
 import java.util.Scanner;
 
