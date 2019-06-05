@@ -1,5 +1,18 @@
 # Airline-SQL-Databse
-This database stores information about flight schedules for an airline company
+This database stores information about flight schedules for an airline company and uses JDBC to interact with it in Java.
+
+### Categories
+- Airport(Code, City, State)
+- Flight(FLNO, Meal, Smoking)
+- FlightInstance(FLNO, FDate)
+- PlaneType(Maker, Model, FlyingSpeed, GroundSpeed)
+- PlaneSeats(Maker, Model, SeatType, NoOfSeats)
+- Plane(ID, Maker, Model, LastMaint, LastMaintA)
+- FlightLeg(FLNO, Seq, FromA, ToA, DeptTime, ArrTime, Plane)
+- Pilot(ID, Name, DateHired)
+- FlightLegInstance(Seq, FLNO, FDATE, ActDept, ActArr, Pilot)
+- Passenger(ID, Name, Phone)
+- Reservation(PassID, FLNO, FDate, FromA, ToA, SeatClass, DateBooked, DateCanceled)
 
 ### JDBC
 For files related to Java Database Connectivity (JDBC), you must edit the code to include the data for your own database.
