@@ -1,6 +1,9 @@
 # Airline-SQL-Databse
 This database stores information about flight schedules for an airline company and uses JDBC to interact with it in Java.
 
+### Introduction
+This project builds a databse using mySQL and the uses jdbc to control the database in Java. There are 4 sql files that do the following tasks: ceate tables, insert information into tables, drop tables, and query tables. There are 2 jdbc Java files that allow you to view certain information about the database by using sequences of queries. These tasks are selected with a command line interface.
+
 ### Categories
 - Airport(Code, City, State)
 - Flight(FLNO, Meal, Smoking)
