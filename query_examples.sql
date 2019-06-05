@@ -14,7 +14,7 @@
 *
 *H*/
 
--- 1. Retrieve the ID, the model, and the last maintenance date for each plan that was made by 'AIRBUS'
+-- 1. Retrieve the ID, the model, and the last maintenance date for each plane that was made by 'AIRBUS'
 SELECT ID, model, LastMaint FROM Plane WHERE Maker = 'AIRBUS';
 
 -- 2. Retrieve the names of passengers who had reservations on flights with meals.
