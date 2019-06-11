@@ -21,8 +21,15 @@ The tables in the database are connected by various foreign key references. This
 
 ### JDBC
 For files related to Java Database Connectivity (JDBC), you must edit the code to include the data for your own database.
+```
+final static String user = "username";
+final static String password = "password";
+final static String db = "databaseName";
+final static String jdbc = "connectionURL" + db + "?user=" + user + "&password=" + password;
+```
 - **user** String should be your, you guessed it, username
 - **password** String should be your password
-- **jdbc** String should be the connection URL
-  - Ex: jdbc:mysql://omega.uta.edu:3306/ + db + "?user=" + user + "&password=" + password;
+- **db** String should be the connection URL
+- **Connection URL** must be hardcoded.
+  - __Example:__ jdbc:mysql://omega.uta.edu:3306/ + db + "?user=" + user + "&password=" + password;
  
